@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server/server.js",
-    "server": "nodemon server/server.js"
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [
     "logistics",
@@ -13,7 +15,7 @@
     "fullstack",
     "app"
   ],
-  "author": "Saeed Elmakki",
+  "author": "Saeed",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -26,6 +28,7 @@
     "mongoose": "^6.10.0"
   },
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "nodemon": "^2.0.20"
   }
 }
