@@ -16,7 +16,7 @@ function Header() {
     };
 
     return (
-        <header className="header">
+        <header className="top-nav">
             <div className="logo">
                 <Link to="/">Flash Prep Logistics</Link>
             </div>

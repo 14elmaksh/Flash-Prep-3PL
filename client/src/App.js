@@ -8,6 +8,7 @@ import Price from "./pages/Price";
 import ContactUs from "./pages/ContactUs";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Home from "./pages/Home";
 
 function App() {
 	return (
@@ -16,12 +17,13 @@ function App() {
 				<div className="container">
 					<Header />
 					<Routes>
-						<Route path="/" element={<Dashboard />} />
+						<Route path="/" element={<Home />} />
 						<Route path="/about" element={<AboutUs />} />
 						<Route path="/prices" element={<Price />} />
 						<Route path="/contact" element={<ContactUs />} />
 						<Route path="/login" element={<Login />} />
 						<Route path="/register" element={<Register />} />
+						<Route path="/dashboard" element={<Dashboard />} />
 					</Routes>
 				</div>
 			</Router>

@@ -43,7 +43,7 @@ h3 {
     text-align: center;
 }
 
-.header {
+.top-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,27 +52,65 @@ h3 {
     margin-bottom: 60px;
 }
 
-.header ul {
+.top-nav .logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.top-nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header ul li {
+.top-nav ul li {
     margin-left: 20px;
 }
 
-.header ul li a {
+.top-nav ul li a {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: #000;
 }
 
-.header ul li a:hover {
+.top-nav ul li a:hover {
     color: #777;
 }
 
-.header ul li a svg {
+.top-nav ul li a svg {
     margin-right: 5px;
+}
+
+.hero {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    width: 100%;
+}
+
+.hero img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.hero p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.hero .lead {
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.hero button {
+    border: none;
+    background-color: orange;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 8px;
+    margin-top: 16px;
 }
 
 .heading {
@@ -84,6 +122,33 @@ h3 {
 
 .heading p {
     color: #828282;
+}
+
+.text-body {
+    text-align: left;
+}
+
+.text-body p {
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+.content-bottom {
+    padding: 32px 0;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.contact-params {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.contact-params .lead {
+    font-weight: bold;
 }
 
 .form,
@@ -206,5 +271,16 @@ h3 {
 
     .pricing-pane {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero img {
+        width: 100%;
+        border-radius: 8px;
     }
 }
