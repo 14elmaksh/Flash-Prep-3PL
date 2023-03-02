@@ -5,7 +5,7 @@ const { errorHandler } = require("./middleware/errorMiddleware");
 const connectDB = require("./config/db");
 const port = process.env.PORT || 5000;
 const cors = require("cors");
-const whitelist = ["http://localhost:3000"];
+const whitelist = ["http://localhost:3000", "https://flash-prep-center.herokuapp.com"];
 
 connectDB();
 
