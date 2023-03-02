@@ -11,25 +11,25 @@ const ContactUs = () => {
 			</section>
 			<section className="contact">
 				<p>
-					Got questions or ready to start shipping with us? 
-					Contact us today and our team will be happy to assist you with all your logistics needs. 
-					Let's work together to streamline your shipping process and achieve your business goals!
+					Got questions or ready to start shipping to us? 
+					Contact us today and our team will be happy to assist you with all your needs. 
+					Let's work together to streamline your e-commerce process and achieve your business goals!
 				</p>
 				<div className="contact-params">
 					<span className="lead">Address:</span>
-					<span>123 Main Street, Suite 456, Anytown, CA 12345</span>
+					<span>436 South Cameron Stree Harrisburg, PA 17101</span>
 				</div>
 				<div className="contact-params">
 					<span className="lead">Email:</span>
-					<span>info@flashpreplogistics.com</span>
+					<span>flash1shipping@gmail.com</span>
 				</div>
 				<div className="contact-params">
 					<span className="lead">Phone:</span>
-					<span>(555) 555-1234</span>
+					<span>(717) 964-4171</span>
 				</div>
 				<div className="contact-params">
 					<span className="lead">Fax:</span>
-					<span>(555) 555-5678</span>
+					<span>(717) 963-4171</span>
 				</div>
 			</section>
 		</>
