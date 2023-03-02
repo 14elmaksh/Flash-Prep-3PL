@@ -14,10 +14,17 @@ const AboutUs = () => {
 				<img src={HappyTeam} alt="about us" />
 				<div className="text-body">
 					<p>
-					Our goal is to assist all Amazon sellers around the world by removing the burden of time-consuming and heavy lifting aspects of business and providing the highest standard of technical and professional support to maximize business efficiency. 
-					We provide Amazon FBA Prep, Merchant Fulfillment, and Storage Services to clients selling products on Amazon or through the eCommerce market.
-					We will partner with you and become your "shipping department" (doing all the boxing, labeling and taping, etc.) allowing you more time to source new products and increase sales. We know how important it is to the bottom line to get your items to Amazon as quickly and accurately as possible.
-					Anything that takes you away from the activities that produce value for your business needs to be outsourced. This is never truer than when you are in growth mode.
+						Welcome to our logistics company, where dreams become reality. 
+						Our founder's story is one of inspiration and innovation, 
+						as he turned a vivid dream into a successful business that helps 
+						companies around the world streamline their shipping processes.
+					</p>
+					<p>
+						Our journey began when our founder had a dream in which he was being chased down the street 
+						by a giant freight truck. The dream was a wake-up call, as he realized that inefficient 
+						and unreliable logistics were constantly holding him back in his own business. 
+						With a desire to solve these logistical challenges, he started our company, determined to 
+						provide reliable and efficient shipping services to businesses of all sizes.
 					</p>
 				</div>
 			</section>

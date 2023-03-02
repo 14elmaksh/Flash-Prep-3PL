@@ -151,6 +151,22 @@ h3 {
     font-weight: bold;
 }
 
+.user-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.user-actions button {
+    border: none;
+    background-color: orange;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
 .form,
 .content {
     width: 70%;
